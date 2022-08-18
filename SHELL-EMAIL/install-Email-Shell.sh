@@ -8,7 +8,7 @@ cd openssl-3.0.5
 ./config
 make
 sudo make install
-export LD_LIBRARY_PATH="/home/pi/XXXX/openssl-3.0.5"
+export LD_LIBRARY_PATH="/home/pi/SHELL-EMAIL/openssl-3.0.5"
 cd ..
 g++ -g -rdynamic -Wall NET-SSL-Client1.cpp -lssl -lcrypto -o Email-shell
 
