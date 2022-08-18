@@ -24,9 +24,9 @@ int nFd_R;
 char R_Buffer[10000];
 char W_Buffer[10000];
 char y1[100] = {"Content-Transfer-Encoding: base64\n"};
-char U_C_name[100] = {"qsdd_2020@qq.com"};
-char U_name[100] = {"qsdd13112294006@163.com"};
-char U_password[100] = {"USDLJZCWHMEYEDTM"};
+char U_C_name[100] = {"给此程序发指令的邮箱"};
+char U_name[100] = {"此程序登陆的邮箱"};
+char U_password[100] = {"此程序登陆的邮箱的密码"};//注：网易邮箱的SMTP和IMAP服务要手动开启
 char *base64_encode(char *str) ;
 char *base64_decode(const char *code);
 void EXIT_IF_TRUE (bool x){
