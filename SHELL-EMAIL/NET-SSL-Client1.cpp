@@ -301,6 +301,7 @@ bool SendEmailClose(){
 	SSL_CTX_free (ctx);
 	close(nFd);
 }  
+//以下base64编码和解码的程序均来自https://blog.csdn.net/weixin_30401605/article/details/96315078
 char *base64_encode(char *str)  
 {  
     long len;  
